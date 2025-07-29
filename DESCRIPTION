@@ -1,0 +1,21 @@
+Package: BiontR
+Type: Package
+Title: Helper Scripts for FGL Data Processing
+Version: 0.1.0
+Authors@R:
+    person(given = "Joost", family = "Keuskamp", role = c("aut", "cre"), email = "jkeuskamp@biontresearch.nl")
+Maintainer: Joost Keuskamp <jkeuskamp@biontresearch.nl>
+Description: A collection of scripts designed to facilitate the processing of FGL data.
+License: file LICENSE
+Encoding: UTF-8
+Depends:
+    R (>= 4.2.0)
+Imports:
+    devEMF,
+    rstudioapi,
+    stats,
+    stringr,
+    units,
+    Rdpack
+RoxygenNote: 7.3.2
+RdMacros: Rdpack
