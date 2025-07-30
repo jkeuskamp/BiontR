@@ -4,8 +4,9 @@
 #'
 #' @description Retrieve arguments from a function call to the current function.
 #' @return A list with the arguments of the function call.
+#' @param ... Additional arguments passed to the function.
 #' @export
-get_args <- function() {
+get_args <- function(...) {
   as.list(match.call(
     definition = sys.function(-1),
     call = sys.call(-1)
