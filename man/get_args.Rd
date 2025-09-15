@@ -4,7 +4,10 @@
 \alias{get_args}
 \title{Retrieve Arguments from Function Call}
 \usage{
-get_args()
+get_args(...)
+}
+\arguments{
+\item{...}{Additional arguments passed to the function.}
 }
 \value{
 A list with the arguments of the function call.
